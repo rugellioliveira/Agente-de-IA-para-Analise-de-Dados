@@ -100,7 +100,7 @@ if arquivo_carregado:
 
     # Relatório de informações gerais
     if st.button("📄 Relatório de informações gerais", key="botao_relatorio_geral"):
-        with st.spinner("Gerando relatório 🦜"):
+        with st.spinner("Gerando relatório ⚙️"):
             resposta = orquestrador.invoke({"input": "Quero um relatório com informações sobre os dados"})
             st.session_state['relatorio_geral'] = resposta["output"]
 
@@ -118,7 +118,7 @@ if arquivo_carregado:
 
     # Relatório de estatísticas descritivas
     if st.button("📄 Relatório de estatísticas descritivas", key="botao_relatorio_estatisticas"):
-        with st.spinner("Gerando relatório 🦜"):
+        with st.spinner("Gerando relatório ⚙️"):
             resposta = orquestrador.invoke({"input": "Quero um relatório de estatísticas descritivas"})
             st.session_state['relatorio_estatisticas'] = resposta["output"]
 
