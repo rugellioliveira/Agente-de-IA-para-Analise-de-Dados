@@ -1,7 +1,7 @@
 ***Agente de IA para Análise de Dados***
 ---
 
-Este repositório é um clone do projeto original disponível em [[URL_DO_REPOSITÓRIO_ORIGINAL](https://github.com/vqrca/projeto-langchain)], utilizado exclusivamente para fins de aprendizado e exploração de conceitos de agentes de inteligência artificial aplicados à análise de dados.
+Este repositório é um clone do projeto original disponível em [[REPOSITÓRIO_ORIGINAL](https://github.com/vqrca/projeto-langchain)], utilizado exclusivamente para fins de aprendizado e exploração de conceitos de agentes de inteligência artificial aplicados à análise de dados.
 
 O objetivo é estudar a estrutura, o funcionamento e as técnicas utilizadas no projeto original, bem como realizar experimentações e adaptações conforme necessário para aprofundar o entendimento dos métodos envolvidos.
 
