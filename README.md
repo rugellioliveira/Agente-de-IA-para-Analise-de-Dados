@@ -84,9 +84,13 @@ Para utilizar este projeto, é necessário configurar uma chave de API do Groq
  e gere sua chave de API.
 
 - Adicione a seguinte linha no arquivo .env, substituindo "SUA_CHAVE_AQUI" pela chave que você obteve:
+```bash
 GROQ_API_KEY=SUA_CHAVE_AQUI
+```
 
 - Abra o arquivo ferramentas.py e verifique se a chave está sendo lida corretamente com a linha:
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+```bash
+GROQ_API_KEY=os.getenv("GROQ_API_KEY")
+```
 
 🔁 Caso esteja utilizando o projeto no Streamlit Cloud, lembre-se de adicionar a variável GROQ_API_KEY na aba Secrets com o mesmo valor.
