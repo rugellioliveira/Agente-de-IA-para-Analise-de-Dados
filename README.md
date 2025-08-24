@@ -46,7 +46,7 @@ Ferramentas são funções externas que o agente pode utilizar para cumprir tare
 - Geração de Gráficos – Cria visualizações automáticas com seaborn/matplotlib a partir de descrições em linguagem natural.
 - Execução de Código Python – Permite cálculos, filtros e consultas diretamente via código Python gerado pelo LLM.
 
-🚀 ***Tecnologias utilizadas:***
+🛠️ ***Tecnologias utilizadas:***
 
 - Python 3.10+
 - LangChain
@@ -54,3 +54,39 @@ Ferramentas são funções externas que o agente pode utilizar para cumprir tare
 - Streamlit – Interface web simples e interativa
 - pandas, matplotlib, seaborn – Manipulação e visualização de dados
 - dotenv – Gestão de chaves de API com segurança
+
+## 🚀 Aplicação
+ [**Acesse a aplicação online aqui**](https://agente-ia-dados.streamlit.app/)
+
+Ou execute localmente:
+```bash
+   streamlit run streamlit-app.py
+```
+
+## 💻 Como Executar
+
+1- Clone o repositório:
+```bash
+   git clone https://github.com/rugellioliveira/Agente-de-IA-para-Analise-de-Dados.git
+```
+2- Instale as dependências:
+```bash
+   pip install -r requirements.txt
+```
+🔐 Configuração da Chave de API (GROQ)
+
+Para utilizar este projeto, é necessário configurar uma chave de API do Groq
+. Siga os passos abaixo:
+
+- Crie um arquivo chamado .env na raiz do projeto, se ainda não existir.
+
+- Acesse https://console.groq.com/keys
+ e gere sua chave de API.
+
+- Adicione a seguinte linha no arquivo .env, substituindo "SUA_CHAVE_AQUI" pela chave que você obteve:
+GROQ_API_KEY=SUA_CHAVE_AQUI
+
+- Abra o arquivo ferramentas.py e verifique se a chave está sendo lida corretamente com a linha:
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+🔁 Caso esteja utilizando o projeto no Streamlit Cloud, lembre-se de adicionar a variável GROQ_API_KEY na aba Secrets com o mesmo valor.
