@@ -15,7 +15,7 @@ Este projeto é uma ferramenta interativa de análise de dados com IA construíd
 - Utilizar o poder dos LLMs para explorar os dados com agilidade
 - Ideal para analistas de dados, cientistas, profissionais de BI ou qualquer pessoa que queira entender seus dados rapidamente com ajuda de IA.
 
-🧠 *** O que é um LLM (Large Language Model)? ***
+🧠 ***O que é um LLM (Large Language Model)?***
 
 Um LLM (Large Language Model) é um modelo de linguagem treinado com grandes volumes de texto, capaz de compreender e gerar linguagem natural de forma autônoma. No projeto, utilizamos o modelo LLaMA 3 da Meta, acessado via a plataforma Groq, que oferece respostas rápidas e custo-benefício competitivo.
 Esses modelos são utilizados para interpretar perguntas dos usuários, gerar relatórios, escrever código Python e até criar visualizações de dados automaticamente.
